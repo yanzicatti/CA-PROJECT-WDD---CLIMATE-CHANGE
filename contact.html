@@ -25,8 +25,34 @@
         </div>
     </header>
     
+    <!-- Main content -->
+    <main class="container my-5 flex-grow-1">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-4">Contact us</h1>
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Message</label>
+                        
+                        <textarea class="form-control " id="message" rows="4" required>
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark px-5">Send</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
   <!-- Footer -->
-  <footer class="footer-bar border-top border-secondary py-4 mt-auto">
+  <footer class="footer-bar border-top py-4 ">
     <div class="container">
       <small class="text-dark">© 2026 Caue Tachibana Diehl and Yan Zicatti </small>
     </div>
