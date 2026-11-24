@@ -9,21 +9,26 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
    
 </head>
 <body>
     <!-- Header & Navigation -->
-    <header class="border-bottom border-secondary py-3">
+    <header class="border-bottom bg-white shadow border-secondary py-3">
         <div class="container d-flex flex-wrap justify-content-between align-items-center">
             <a href="index.html" class="d-flex align-items-center justify-content-center">
                 <img src="logo.png" alt="Climate Action" class="img-fluid">
             </a>
             <nav class="nav">
-                <a class="nav-link text-dark" href="index.html">Home</a>
-                <a class="nav-link text-dark" href="learn.html">Learn</a>
-                <a class="nav-link text-dark" href="takeaction.html">Take Action</a>
-                <a class="nav-link text-dark" href="contact.html">Contact</a>
+                <a class="nav-link nav-item rounded-4 text-dark" href="index.html">Home</a>
+                <a class="nav-link nav-item rounded-4 text-dark" href="learn.html">Learn</a>
+                <a class="nav-link nav-item rounded-4 text-dark" href="takeaction.html">Take Action</a>
+                <a class="nav-link nav-item rounded-4 text-dark" href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
@@ -31,30 +36,30 @@
 
 <!-- Main content -->
     <main class="container my-5 flex-grow-1">
-        <div class="row">
-            <div id="takeactioncheckbox" class="col-lg-6">
+        <div class="">
+            <div id="takeactioncheckbox" class="">
 
-                <h1 class="fw-bold mb-2">Take action</h1>
+                <h1 class="fw-bold title-font mb-2">Take action</h1>
                 <p class="mb-4">Tick the things you already do and see how much you are helping the world.</p>
 
                 
-                <div class="fact-box-style form-check px-5 py-3 mb-3">
+                <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action1">
                     <label for="action1"><!-- //TODO -->blabka</label>
                 </div>
-                <div class="fact-box-style form-check px-5 py-3 mb-3">
+                <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action2">
                     <label for="action2"><!-- //TODO -->blabla</label>
                 </div>
-                <div class="fact-box-style form-check px-5 py-3 mb-3">
+                <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action3">
                     <label for="action3"><!-- //TODO -->blabla</label>
                 </div>
-                <div class="fact-box-style form-check px-5 py-3 mb-3">
+                <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action4">
                     <label class="form-check-label w-100" for="action4">blabla</label>
                 </div>
-                <div class="fact-box-style form-check px-5 py-3 mb-3">
+                <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action5">
                     <label for="action5"><!-- //TODO -->blabal</label>
                 </div>
@@ -64,12 +69,13 @@
         </div>
     </main>
 
-<!-- Footer -->
-  <footer class="footer-bar fixed-bottom border-top border-secondary py-4 mt-3 ">
-    <div class="container">
-      <small class="text-dark">© 2026 Caue Tachibana Diehl and Yan Zicatti </small>
-    </div>
-  </footer>
+ <!-- Footer -->
+    <footer class="footer-bar border-top fixed-bottom border-white py-4 mt-3 ">
+        <div class="container">
+            <small class="text-dark text-white">© 2026 Caue Tachibana Diehl, Yan Zicatti, Daris Halushko and Yahya Ben
+                Taher</small>
+        </div>
+    </footer>
 
   <!--javascript connection-->
     <script src="script.js"></script>
