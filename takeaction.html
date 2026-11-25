@@ -36,8 +36,8 @@
 
 <!-- Main content -->
     <main class="container my-5 flex-grow-1">
-        <div class="">
-            <div id="takeactioncheckbox" class="">
+        <div class="row justify-content-center">
+            <div id="takeactioncheckbox" class="col-lg-9">
 
                 <h1 class="fw-bold title-font mb-2">Take action</h1>
                 <p class="mb-4">Tick the things you already do and see how much you are helping the world.</p>
@@ -45,32 +45,44 @@
                 
                 <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action1">
-                    <label for="action1"><!-- //TODO -->blabka</label>
+                    <label class="form-check-label w-100" for="action1">Walk, cycle, or use public transport instead of driving short trips</label>
                 </div>
                 <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action2">
-                    <label for="action2"><!-- //TODO -->blabla</label>
+                    <label class="form-check-label w-100" for="action2">Switch off lights and unplug devices when not in use</label>
                 </div>
                 <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action3">
-                    <label for="action3"><!-- //TODO -->blabla</label>
+                    <label class="form-check-label w-100" for="action3">Carry a reusable water bottle and coffee cup</label>
                 </div>
                 <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action4">
-                    <label class="form-check-label w-100" for="action4">blabla</label>
+                    <label class="form-check-label w-100" for="action4">Plan meals to reduce household food waste</label>
                 </div>
                 <div class="fact-box-style shadow form-check px-5 py-3 mb-3">
                     <input class="form-check-input" type="checkbox" id="action5">
-                    <label for="action5"><!-- //TODO -->blabal</label>
+                    <label class="form-check-label w-100" for="action5">Choose plant-based meals at least twice a week</label>
                 </div>
-                
-                <p class="h4 mt-3" id="answercheckbox"></p>
+                 
+                <!--summary box -->
+
+                <div class="p-4 bg-white border rounded shadow-sm text-center" aria-live="polite">
+                    <p class="h5 fw-bold mb-2" id="actionCount">You did 0 of 5 actions</p>
+                    <div class="progress mb-3" style="height: 24px;">
+                        <div id="actionProgress" class="progress-bar bg-success" role="progressbar" 
+                        style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%
+                        </div>
+                    </div>
+                        <p class="mb-3 text-muted" id="answercheckbox"></p>
+                    <button type="button" id="resetActionsBtn" class="btn btn-outline-secondary btn-sm">Reset Checklist</button>
+        
+                </div>         
             </div>
         </div>
     </main>
 
  <!-- Footer -->
-    <footer class="footer-bar border-top fixed-bottom border-white py-4 mt-3 ">
+    <footer class="footer-bar border-top  border-white py-4 mt-3 ">
         <div class="container">
             <small class="text-dark text-white">© 2026 Caue Tachibana Diehl, Yan Zicatti, Daris Halushko and Yahya Ben
                 Taher</small>
